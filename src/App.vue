@@ -25,12 +25,12 @@ import { RouterView } from "vue-router";
           </li>
           <li class="nav-item">
             <!-- <a class="nav-link" href="#">Link</a> -->
-            <router-link class="nav-link" to="/registration">Regisztráció</router-link>
+            <router-link class="nav-link" to="/registration">Regisztráció:</router-link>
           </li>
           
           <li class="nav-item">
             <!-- <a class="nav-link" href="#">Link</a> -->
-            <router-link class="nav-link" to="/login">Bejelentkezés</router-link>
+            <router-link class="nav-link" to="/login">Bejelentkezés:</router-link>
           </li>
         </ul>
       </div>
