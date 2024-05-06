@@ -2,10 +2,10 @@ import Axios from "axios";
 Axios.defaults.baseURL = "http://localhost:3000";
 
 export default {
-  getAllKategoria() {
-    return Axios.get("/kategoriak")
+  getAllThemes() {
+    return Axios.get("/themes")
       .then((resp) => {
-        //console.log(resp.data);
+        console.log(resp.data);
         return resp.data;
       })
       .catch((err) => {
